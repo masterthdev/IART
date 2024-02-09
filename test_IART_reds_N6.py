@@ -48,8 +48,8 @@ def main():
 
     avg_psnr_l = []
     avg_ssim_l = []
-    subfolder_l = sorted(glob.glob(osp.join(lr_folder, '*')))
-    subfolder_gt_l = sorted(glob.glob(osp.join(gt_folder, '*')))
+    subfolder_l = lr_folder#sorted(glob.glob(osp.join(lr_folder, '*')))
+    subfolder_gt_l = gt_folder#sorted(glob.glob(osp.join(gt_folder, '*')))
 
     # for each subfolder
     subfolder_names = []
