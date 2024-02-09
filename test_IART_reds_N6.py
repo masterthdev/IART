@@ -19,8 +19,8 @@ def main():
     model_path = 'experiments/pretrained_models/IART_REDS_N6_300000.pth'
     test_name = f'IART_REDS_N6'
 
-    lr_folder = 'datasets/REDS/val_REDS4_sharp_bicubic'
-    gt_folder = 'datasets/REDS/val_REDS4_sharp'
+    lr_folder = '/content/drive/MyDrive/AI/IART/input/test/'
+    gt_folder = '/content/drive/MyDrive/AI/IART/input/test/'
 
     save_folder = f'results/{test_name}'
     os.makedirs(save_folder, exist_ok=True)
